@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    position: relative;
+} */
+.main{
+    position: relative;
+    border: 3px solid red;
+    width: 500px;
+    height: 500px;
+}
+.sub{
+    position: absolute;
+    border: 1px solid blue;
+    right: 0;
+    bottom: 0;
+}
+h2{
+    color: green;
+}
