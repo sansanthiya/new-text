@@ -1,0 +1,8 @@
+
+.columns{
+    border: 4px solid lightblue;
+    background-color: pink;
+    width: 7%;
+    height: 400px;
+    display: inline-block;
+}

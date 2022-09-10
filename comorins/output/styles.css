@@ -1,0 +1,35 @@
+.wraper {
+    border: 8px solid black;
+    position: relative;
+    width: 80%;
+    height: 80%;
+  }
+  .sub{
+    width: 20%;
+    height: 40%;
+    position: absolute; 
+  }
+  .a{
+      background-color: brown;
+     }
+    .b{
+      background-color: darkmagenta;
+      right: 0;
+     }
+    .c{
+      background-color:blue;
+      bottom: 0px;
+       }
+      .d{
+          background-color:lightblue;
+          right: 0px;
+          bottom: 0px;
+        }
+      .e{
+          background-color:green;
+          top:50%;
+          left:50%;
+          transform: translate(-50%,-50%);
+         } 
+        
+       
