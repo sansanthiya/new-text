@@ -1,0 +1,30 @@
+header{
+    background-color: #333;
+}
+ header  li{
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 18px;
+}
+ header ul{
+ margin-left: 462px;
+}
+a{
+    color:#fff;
+}
+a:hover{
+    color: red;
+}
+h1{
+    color: red;
+}
+.main{
+    color: blue;
+ }
+ .wraper{
+     width: 48%;
+    background-color: yellow;
+    display: inline-block;
+   
+ }
