@@ -1,21 +1,91 @@
 header{
     background-color: #333;
+    position: fixed;
+    width: 100%;
 }
-li{
+.list{
     color: white;
     display: inline-block;
     list-style-type: none;
     padding: 18px;
 }
-ul{
+.headerul{
  margin-left: 462px;
 }
 a{
     color:#fff;
+    text-decoration: none;
 }
 a:hover{
     color: red;
 }
+a:active{
+    color: green;
+}
 p{
     color: lightblue;
 }
+section{
+ padding-top: 100px;
+}
+/* label start */
+label{
+    color: blue;
+    display: inline-block;
+    width: 120px;
+}
+input{
+    border: 3px solid #ced4ca;
+    border-bottom: 3px solid #faa61f;
+   
+}
+textarea{
+    border: 3px solid #ced4ca;
+    border-bottom: 3px solid #faa61f;
+    width: 20%;
+    color: blue;
+}
+.sub{
+    width: 55%;
+    
+}
+.main{
+    background-color: #faa61f;
+    color: #fff;
+    border: 3px solid #ced4ca;
+    border: 3px solid #faa61f;
+    margin-left: 50%;
+}
+form{
+   margin-left: 500px;
+}
+.mobile{
+  width: 55%;
+}
+.email{
+    width: 55%;
+}
+.name{
+   width: 55%;
+    }
+.textarea{
+   width: 55%;
+    }
+/* label end */
+/* ul_li start */
+ .wraper h1{
+    color: red;
+}
+.tea{
+    color: blue;
+    
+
+ }
+ .wraper{
+    
+    background-color: yellow;
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
+   }
+/* ul_li end */
