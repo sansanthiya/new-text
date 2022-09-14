@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+      background-color: lightgray;
+      font-family: system-ui;
+       padding: 10px;
+  }
+   .main-body{
+      background-color: white;
+  }
+   header{
+    padding-top: 30px;
+   }
+  .nav{
+      background-color:black;
+      color: white;
+  } 
+  .nav li{
+    display: inline-block;
+    padding: 10px;
+  }
+  ul li:nth-child(4){
+    float: right;    
+  } 
+  h1{
+    text-align: center;
+  }
+ header p{
+  text-align: center;
+ }
+  .main{
+     background-color: lightgray;
+    padding-top: 10px;
+      }
+.maincontent{
+     width: 67.3%;
+    display: inline-block;
+       
+       }
+ .sidebar{
+    vertical-align: top;
+    text-align: left;
+    width: 32%;
+    display: inline-block;
+       } 
+.content{
+     background-color:grey;
+       }
+      .side{
+        background-color:white;
+        margin-bottom: 10px;
+        padding: 10px
+        }
+      .out{
+        background-color:gray;
+      }
+      .footer{
+        background-color: gray;
+        text-align: center;
+       padding: 5px;
+       
+       }
+      
+      .follow{
+        
+         background-color:white; 
+         padding: 10px;
+         margin-bottom: 10px;
+       }
+      
+      .post{
+        background-color:gray;
+        padding: 10px;
+         }
+         .post ul li{
+          padding-bottom: 20px;
+         }
+      .content-1{
+        background-color:grey;
+       margin:0 4px;
+         }
+      
+      .often{
+        padding-bottom: 150px;
+      }
+      .menus{
+        padding-bottom: 160px;
+      }
+      .index{
+        background-color:white;
+        text-align: left;
+       display: inline-block;
+        padding: 10px;
+        margin-bottom: 10px;
+       
+        
+      }
+      .style{
+         background-color:white;
+         padding: 10px;
+          margin-bottom: 10px;
+     }
+      ul{
+       list-style-type: none;
+       padding: 5px;
+       margin-bottom: 0px;
+      
+      }
+      .footer{
+        background-color: gray;
+        text-align: center;
+       padding: 5px;
+       
+       }

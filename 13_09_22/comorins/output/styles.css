@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #111;
+    color: #fff;
+    margin: 10px 0;
+}
+h1{
+    text-align: center;
+    padding: 20px 0;
+}
+nav{
+    background-color: gray;
+    color: #fff;
+    margin: 10px 0;
+}
+h2{
+    text-align: center;
+    padding: 15px 0;
+}
+/* section start */
+section{
+    background-color: gray;
+    overflow: hidden;
+    padding-bottom: 80px;
+   margin-bottom: 10px;
+}
+.slideshow{
+    color: #fff;
+    background-color: #111;
+    margin: 10px;
+   
+}
+.column{
+    background-color: white;
+    width: 32.1%;
+    height: 48%;
+    display: inline-block;
+   margin-left: 10px;
+}
+/* section end */
+footer{
+    background-color:#000;
+    color: #fff;
+    font-size: 20px;
+}
