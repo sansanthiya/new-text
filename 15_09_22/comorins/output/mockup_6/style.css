@@ -38,21 +38,21 @@ nav ul li{
     padding-left: 53px
 }
 .main{
-    display: inline-block;
     width: 100%;
+    display: table;
 }
+
 .main img{
     width: 218px;
-    float: left;
+    display: table-cell;
     padding-left: 112px;
     padding-top:26px ;
     padding-bottom:37px ;
 }
 .sub{
-    padding-top: 75px;
-    padding-bottom: 104px;
-    padding-right: 69px;
-    float: right;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
 }
 .tel{
     padding-bottom: 52px;
@@ -66,6 +66,7 @@ nav ul li{
     line-height: 30px;
     color: #000000;
     padding-bottom: 22px;
+    padding-right: 66px;
 }
 .tel{
     font-family: 'Roboto';
@@ -80,6 +81,7 @@ nav ul li{
 /* section start */
 section{
     background-color: #F3F2EE;
+    border-top: 1px solid;
 }
 .row ul li{
    font-family: 'Roboto';
@@ -105,35 +107,30 @@ section{
 }
 .content_1{
     display: inline-block;
-    padding-left: 54px;
-    padding-top: 152px;
-    padding-bottom: 307px;
-    width: 26%;
+    padding-left: 50px;
+    width: 29.3%;
 }
 .content_2{
     display: inline-block;
-    padding-left: 100px;
-    padding-top: 152px;
-    padding-bottom: 307px;
-    width: 26%;
+    padding-left: 40px;
+    width: 29.3%;
 }
 .content_3{
     display: inline-block;
-    padding-left: 100px;
-    padding-top: 152px;
-    padding-bottom: 307px;
-    width: 26%;
+    padding-left: 40px;
+    width: 27.6%;
 }
 .img1{
  border: 1px solid #6F6C6C;
-    
+ padding: 12px 10px 10px 12px;
 }
 .img2{
    border: 1px solid #6F6C6C;
-    
+   padding: 12px 10px 10px 12px;
 }
 .img3{
   border: 1px solid #6F6C6C;
+  padding: 12px 10px 10px 12px;
 }
 .content h5{
 font-family: 'Roboto';
@@ -142,5 +139,281 @@ font-weight: 300;
 font-size: 23px;
 line-height: 153.19%;
 color: #000000;
+}
+.text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 153.19%;
+color: #6D9D34;
+padding-bottom: 10px;
+}
+/* section end */
+/* main-content start */
+.main-content{
+    background-color: #E5E5E5;
+}
+.main-content1{
+    display: inline-block;
+    width: 45%;
+}
+.main-content2{
+    display: inline-block;
+    vertical-align: top;
+    width: 54%;
+}
+.Rectangle{
+    padding: 56px 0;
+    margin-left: 15px;
+}
+.main-content h3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 153.19%;
+color: #8F8F8F;
+padding-left: 38px;
+}
+.vector{
+    border: 1px solid #000000;
+    margin-left: 38px;
+    width: 94%;
+    margin-bottom: 72px;
+}
+.continue_1
+{
+    display: inline-block;
+    width: 37%;
+   padding-left: 28px;
+}
+.continue_2
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 53%;
+    padding-left: 17px;
+}
+.continue_1 img{
+    border: 1px solid;
+    padding: 12 10 12 10;
+} 
+.continue_2 h4{
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 153.19%;
+color: #8F8F8F;
 
 }
+.align{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 118.19%;
+color: #8F8F8F;
+}
+.stand{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 153.19%;
+color: #8F8F8F;
+padding-top: 39px;
+padding-left: 36px;
+}
+.Phasellus{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 153.19%;
+color: #8F8F8F;
+padding-left: 50px;
+padding-top: 22px;
+}
+.colunm{
+    display: inline-block;
+    padding-left: 48px;
+}
+.colunm img{
+    border: 1px solid;
+    padding: 6px 3 5 3;
+}
+.colunm_1{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+}
+.colunm_1 h3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 169.19%;
+color: #6C6C6C;
+}
+.colunm_2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 169.19%;
+color: #707070;
+padding-left: 35px;
+}
+.Reading{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 153.19%;
+color: #6D9D34;
+padding-left: 33px
+}
+.vector1{
+padding-left: 50px;
+padding-bottom: 30px;
+}
+.wraper{
+    padding-bottom: 42px;
+}
+/* main-content end*/
+/* parent start */
+.parent{
+    background: #333333
+}
+.child_1{
+    display: inline-block;
+    padding: 62px 33px;
+    width: 33%;
+}
+.child_2{
+    display: inline-block;
+    padding: 62px 33px;
+    width: 25%;
+}
+.child_3{
+    display: inline-block;
+    padding: 62px 33px;
+    width: 25%;
+}
+.child h2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 153.19%;
+color: #B1B1B1;
+}
+.about{
+    border: 1px solid #F0F0F0;
+    width: 95%;
+}
+/* parent end */
+/* heading start */
+.heading_1{
+    display: inline-block;
+    padding-left: 38px;
+}
+.heading_2{
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    padding-left: 10px;
+}
+.head{
+padding: 7px 3 1px 3;
+border: 1px solid #C2C2C2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.head_1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 169.19%;
+color: #FFFFFF;
+
+}
+.head_2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 109.19%;
+color: #FFFFFF;
+padding-bottom: 3px;
+}
+.head_3{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 119.69%;
+color: #FFFFFF;
+}
+ .head_4{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 119.69%;
+color: #FFFFFF;
+padding-left: 40px;
+padding-top: 26px;
+} 
+.main_heading{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+.mock{
+    display: inline-block;
+    width: 43%; 
+}
+.main_heading1{
+    padding-left: 5px;
+    padding-bottom: 25px;
+}
+.begin{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+}
+.begin_1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 195.19%;
+color: #FFFFFF;
+}
+/* heading end */
+/* footer srart */
+footer{
+    background-color: #777777;
+    display: table;
+    width: 100%
+  
+}
+.foot{
+    display: table-cell;
+}
+.foot_1{
+    display: table-cell;
+    text-align: right;
+}
+.copy{
+    font-size: 20px;
+    padding: 23 0 23 43;
+}
+.copy_1{
+    font-size: 20px;
+    padding: 23 10 28 0;
+}
+/* footer end */
